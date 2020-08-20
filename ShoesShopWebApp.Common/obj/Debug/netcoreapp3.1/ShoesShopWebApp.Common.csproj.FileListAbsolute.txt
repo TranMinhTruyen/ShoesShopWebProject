@@ -1,0 +1,9 @@
+D:\ShoesShopWebProject\ShoesShopWebApp.Common\bin\Debug\netcoreapp3.1\ShoesShopWebApp.Common.deps.json
+D:\ShoesShopWebProject\ShoesShopWebApp.Common\bin\Debug\netcoreapp3.1\ShoesShopWebApp.Common.dll
+D:\ShoesShopWebProject\ShoesShopWebApp.Common\obj\Debug\netcoreapp3.1\ShoesShopWebApp.Common.AssemblyInfoInputs.cache
+D:\ShoesShopWebProject\ShoesShopWebApp.Common\obj\Debug\netcoreapp3.1\ShoesShopWebApp.Common.AssemblyInfo.cs
+D:\ShoesShopWebProject\ShoesShopWebApp.Common\bin\Debug\netcoreapp3.1\ShoesShopWebApp.Common.pdb
+D:\ShoesShopWebProject\ShoesShopWebApp.Common\obj\Debug\netcoreapp3.1\ShoesShopWebApp.Common.csproj.CoreCompileInputs.cache
+D:\ShoesShopWebProject\ShoesShopWebApp.Common\obj\Debug\netcoreapp3.1\ShoesShopWebApp.Common.dll
+D:\ShoesShopWebProject\ShoesShopWebApp.Common\obj\Debug\netcoreapp3.1\ShoesShopWebApp.Common.pdb
+D:\ShoesShopWebProject\ShoesShopWebApp.Common\obj\Debug\netcoreapp3.1\ShoesShopWebApp.Common.csprojAssemblyReference.cache

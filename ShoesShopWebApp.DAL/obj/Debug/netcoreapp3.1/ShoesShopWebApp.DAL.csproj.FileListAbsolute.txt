@@ -1,0 +1,15 @@
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\bin\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.deps.json
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\bin\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.dll
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\obj\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.csprojAssemblyReference.cache
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\obj\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.AssemblyInfoInputs.cache
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\obj\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.AssemblyInfo.cs
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\bin\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.runtimeconfig.json
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\bin\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.runtimeconfig.dev.json
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\bin\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.pdb
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\bin\Debug\netcoreapp3.1\ShoesShopWebApp.Common.dll
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\bin\Debug\netcoreapp3.1\ShoesShopWebApp.Common.pdb
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\obj\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.csproj.CoreCompileInputs.cache
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\obj\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.csproj.CopyComplete
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\obj\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.dll
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\obj\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.pdb
+D:\ShoesShopWebProject\ShoesShopWebApp.DAL\obj\Debug\netcoreapp3.1\ShoesShopWebApp.DAL.genruntimeconfig.cache
