@@ -1,4 +1,4 @@
-1) Các nuget package cần sử dụng:
+1.Các nuget package cần sử dụng:
 
   -Mở tool -> nuget package manager -> package manager console
 
@@ -24,12 +24,12 @@
 
 
 
-2) Tạo cơ sở dữ liệu bằng Migration
+2.Tạo cơ sở dữ liệu bằng Migration
 
-  Sử dụng migration (Tools -> Nuget Package Manager -> Package Manager Console)
+  -Sử dụng migration (Tools -> Nuget Package Manager -> Package Manager Console)
   
-  Chuyển Default project sang ShoesShopWebApp.DAL
+  -Chuyển Default project sang ShoesShopWebApp.DAL
   
-  Bước 1: Tạo mới migration: add-migration ShoesShopDB
+  -Bước 1: Tạo mới migration: add-migration ShoesShopDB
   
-  Bước 2: Chuyển dữ liệu qua database: update-database –verbose
+  -Bước 2: Chuyển dữ liệu qua database: update-database –verbose
