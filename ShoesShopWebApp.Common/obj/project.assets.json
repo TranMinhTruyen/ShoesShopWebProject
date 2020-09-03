@@ -637,7 +637,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenogas.DESKTOP-EHRHPBA\\.nuget\\packages\\": {}
+    "C:\\Users\\Lenogas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -645,11 +645,11 @@
       "projectUniqueName": "D:\\ShoesShopWebProject\\ShoesShopWebApp.Common\\ShoesShopWebApp.Common.csproj",
       "projectName": "ShoesShopWebApp.Common",
       "projectPath": "D:\\ShoesShopWebProject\\ShoesShopWebApp.Common\\ShoesShopWebApp.Common.csproj",
-      "packagesPath": "C:\\Users\\Lenogas.DESKTOP-EHRHPBA\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Lenogas\\.nuget\\packages\\",
       "outputPath": "D:\\ShoesShopWebProject\\ShoesShopWebApp.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenogas.DESKTOP-EHRHPBA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenogas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -693,7 +693,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

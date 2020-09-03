@@ -25,6 +25,13 @@ namespace ShoesShopWebApp.DAL.Model
         #endregion
 
 
+        #region --Ngày tạo--
+        [Column(TypeName = "datetime")]
+        [Required]
+        public DateTime CreateDay { get; set; }
+        #endregion
+
+        
         #region --Mô tả--
         [Column(TypeName = "nvarchar(max)")]
         public String Description { get; set; }

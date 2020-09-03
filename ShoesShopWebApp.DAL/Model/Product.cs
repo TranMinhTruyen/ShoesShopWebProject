@@ -37,7 +37,6 @@ namespace ShoesShopWebApp.DAL.Model
 
         #region --Thương hiệu--
         [Column("Brand")]
-        [Required]
         [ForeignKey("Brand")]
         public String BrandID { get; set; }
         public Brand Brand { get; set; }
@@ -46,7 +45,6 @@ namespace ShoesShopWebApp.DAL.Model
 
         #region --Danh mục--
         [Column("Category")]
-        [Required]
         [ForeignKey("Category")]
         public String CategoryID { get; set; }
         public Category Category { get; set; }
@@ -96,5 +94,8 @@ namespace ShoesShopWebApp.DAL.Model
         [Column(TypeName = "nvarchar(max)")]
         public String Note { get; set; }
         #endregion
+
+
+        public ICollection<OrderDetails> OrderDetails { get; set; }
     }
 }
