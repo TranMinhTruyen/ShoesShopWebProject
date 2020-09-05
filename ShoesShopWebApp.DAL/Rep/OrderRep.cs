@@ -20,72 +20,86 @@ namespace ShoesShopWebApp.DAL.Rep
 
         public object Create(Orders orders)
         {
-            try
+            using (var tran = context.Database.BeginTransaction())
             {
-                context.Orders.Add(orders);
-                context.SaveChanges();
-                return orders;
-            }
-            catch (Exception ex)
-            {
-                return ex.StackTrace;
-            }
+                try
+                {
+                    context.Orders.Add(orders);
+                    context.SaveChanges();
+                    tran.Commit();
+                    return orders;
+                }
+                catch (Exception ex)
+                {
+                    tran.Rollback();
+                    return ex.StackTrace;
+                }
+            }  
         }
 
 
         public object Update(int id, OrderReq req)
         {
-            try
+            using (var tran = context.Database.BeginTransaction())
             {
-                var result = context.Orders.FirstOrDefault(value => value.OrderID == id);
-                if (result != null)
+                try
                 {
-                    result.OrderID = req.OrderID;
-                    result.Name = req.Name;
-                    result.CreatedDate = req.CreatedDate;
-                    result.PhoneNumberOfOrder = req.PhoneNumberOfOrder;
-                    result.Address = req.Address;
-                    result.City = req.City;
-                    result.Status = req.Status;
-                    result.Note = req.Note;
-                    result.EmpId = req.EmpId;
-                    result.CusId = req.CusId;
-                    context.Brand.Update(result);
-                    context.SaveChanges();
-                    return result;
+                    var result = context.Orders.FirstOrDefault(value => value.OrderID == id);
+                    if (result != null)
+                    {
+                        result.OrderID = req.OrderID;
+                        result.Name = req.Name;
+                        result.CreatedDate = req.CreatedDate;
+                        result.PhoneNumberOfOrder = req.PhoneNumberOfOrder;
+                        result.Address = req.Address;
+                        result.City = req.City;
+                        result.Status = req.Status;
+                        result.Note = req.Note;
+                        result.EmpId = req.EmpId;
+                        result.CusId = req.CusId;
+                        context.Orders.Update(result);
+                        context.SaveChanges();
+                        tran.Commit();
+                        return result;
+                    }
+                    else
+                    {
+                        return "Unable to update: not found ID.";
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    return "Unable to update: not found ID.";
+                    tran.Rollback();
+                    return ex.StackTrace;
                 }
-            }
-            catch (Exception ex)
-            {
-                return ex.StackTrace;
-            }
+            }       
         }
 
 
         public object Delete(int id)
         {
-            var result = context.Orders.FirstOrDefault(value => value.OrderID == id);
-            try
+            using (var tran = context.Database.BeginTransaction())
             {
-                if (result != null)
+                var result = context.Orders.FirstOrDefault(value => value.OrderID == id);
+                try
                 {
-                    context.Orders.Remove(result);
-                    context.SaveChanges();
-                    return result;
+                    if (result != null)
+                    {
+                        context.Orders.Remove(result);
+                        context.SaveChanges();
+                        return result;
+                    }
+                    else
+                    {
+                        return "Unable to delete: not found ID.";
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    return "Unable to delete: not found ID.";
+                    tran.Rollback();
+                    return ex.StackTrace;
                 }
-            }
-            catch (Exception ex)
-            {
-                return ex.StackTrace;
-            }
+            }        
         }
 
 

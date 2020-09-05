@@ -46,7 +46,7 @@ namespace ShoesShopWebApp.Controllers
         }
 
 
-        [HttpPut("Update_Account/{account}")]
+        [HttpPut("Update_Customer/{account}")]
         public IActionResult UpdateAccount(String account, CustomerReq req)
         {
             var result = customerSvc.UpdateCustomer(account, req);
@@ -54,7 +54,7 @@ namespace ShoesShopWebApp.Controllers
         }
 
 
-        [HttpDelete("Delete_Brand/{account}")]
+        [HttpDelete("Delete_Customer/{account}")]
         public IActionResult DeleteCustomer(String account)
         {
             var result = customerSvc.DeleteCustomer(account);

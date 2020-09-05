@@ -86,7 +86,7 @@ namespace ShoesShopWebApp.DAL.Migrations
 
                     b.HasKey("CategoryID");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("ShoesShopWebApp.DAL.Model.Customer", b =>
